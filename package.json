@@ -1,7 +1,8 @@
 {
-  "name": "guess_the_number",
+  "name": "task1",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "backgroungColor": "red",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -10,12 +11,15 @@
   },
   "dependencies": {
     "expo": "~48.0.18",
+    "expo-linear-gradient": "^12.1.2",
     "expo-status-bar": "~1.4.4",
+    "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-native": "0.71.8"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "tailwindcss": "^3.3.2"
   },
   "private": true
 }
